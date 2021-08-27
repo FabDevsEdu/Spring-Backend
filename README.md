@@ -1,3 +1,3 @@
 # Spring-Backend
-Backend Written in Spring Kotlin
+Complete Backend Written in Spring Kotlin, Currently Under-Development 
 
