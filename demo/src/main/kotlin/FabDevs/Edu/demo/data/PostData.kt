@@ -3,17 +3,16 @@ package FabDevs.Edu.demo.data
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.util.*
-import javax.persistence.Column
-import javax.persistence.Entity
-import javax.persistence.Id
+import javax.persistence.*
 
 @Entity
 data class PostData(
     @Id
-    var id: UUID? = UUID.randomUUID(),
-    var postTitle : String,
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    var id: Int,
+    var postTitle : String = "Default Name",
     var postContent : String? = null,
     var postImage : String? = null,
-    var postDate: String = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss").format(LocalDate.now()),
-    var postAuthor: String
+    var postDate: String = "",
+    var postAuthor: String = "Akshat"
 )
