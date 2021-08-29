@@ -1,3 +1,3 @@
 # Spring-Backend
-Complete Backend Written in Spring Kotlin, Currently Under-Development 
+Complete Backend For Social Network Android Application Written in Spring Kotlin, Currently Under-Development 
 
